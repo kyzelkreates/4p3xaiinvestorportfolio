@@ -1177,6 +1177,25 @@ function initRouter() {
   history.replaceState({ page: initial }, '', '#' + initial);
 }
 
+
+// ── Valuation source accordion ──────────────────────────────────
+function initValSourceAccordion() {
+  const btn  = document.getElementById('valSourceToggle');
+  const body = document.getElementById('valSourceBody');
+  if (!btn || !body) return;
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    if (expanded) {
+      body.setAttribute('hidden', '');
+    } else {
+      body.removeAttribute('hidden');
+    }
+    const icon = btn.querySelector('.val-source-toggle-icon');
+    if (icon) icon.textContent = expanded ? '▾' : '▴';
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderTimeline();
   renderProjects();
@@ -1190,5 +1209,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initAdminLock();
   initTextbeeConfig();
   initCaseStudyModal();
+  initValSourceAccordion();
   initRouter();
 });
