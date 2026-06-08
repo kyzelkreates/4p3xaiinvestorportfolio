@@ -1820,5 +1820,25 @@
       });
     }
   </script>
+
+  <!-- ── DIAGRAM LIGHTBOX OVERLAY ─────────────────────────────────────── -->
+  <div id="diagLightbox" class="diag-lightbox" role="dialog" aria-modal="true"
+       aria-label="Diagram full view" style="display:none;">
+    <div class="diag-lb-bar">
+      <button class="diag-lb-back" id="diagLbBack" aria-label="Close diagram">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M13 4L7 10L13 16" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back
+      </button>
+      <span class="diag-lb-caption" id="diagLbCaption"></span>
+    </div>
+    <div class="diag-lb-stage">
+      <img id="diagLbImg" class="diag-lb-img" src="" alt="" />
+    </div>
+  </div>
+  <!-- ── END LIGHTBOX ──────────────────────────────────────────────────── -->
+
 </body>
 </html>

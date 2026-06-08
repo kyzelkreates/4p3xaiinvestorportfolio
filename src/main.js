@@ -1315,6 +1315,94 @@ function initAgentChips() {
   });
 }
 
+
+/* ═══════════════════════════════════════════════════════════
+   DIAGRAM LIGHTBOX
+   Click any .diag-img → full-screen overlay, landscape-forced
+   Close: Back button | ESC key | tap outside image
+═══════════════════════════════════════════════════════════ */
+function initDiagLightbox() {
+  const lb       = document.getElementById('diagLightbox');
+  const lbImg    = document.getElementById('diagLbImg');
+  const lbCap    = document.getElementById('diagLbCaption');
+  const lbBack   = document.getElementById('diagLbBack');
+  if (!lb || !lbImg || !lbBack) return;
+
+  // ── Make every diagram image clickable ──────────────────
+  document.querySelectorAll('.diag-img').forEach(img => {
+    img.setAttribute('role', 'button');
+    img.setAttribute('tabindex', '0');
+    img.setAttribute('aria-label', 'View diagram full screen');
+    img.style.cursor = 'zoom-in';
+
+    const open = () => openLightbox(img);
+    img.addEventListener('click', open);
+    img.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  });
+
+  // ── Open ────────────────────────────────────────────────
+  function openLightbox(img) {
+    lbImg.src = img.src;
+    lbImg.alt = img.alt;
+
+    // Caption: try sibling figcaption first, then alt text
+    const fig = img.closest('figure');
+    const capEl = fig ? fig.querySelector('figcaption') : null;
+    lbCap.textContent = capEl ? capEl.textContent.trim() : img.alt;
+
+    lb.style.display = 'flex';
+    // Tiny delay so display:flex has painted before class triggers transition
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => lb.classList.add('diag-lb--open'));
+    });
+
+    document.body.style.overflow = 'hidden';
+    lbBack.focus();
+
+    // Request landscape lock on supported mobile browsers
+    try {
+      screen.orientation.lock('landscape').catch(() => {});
+    } catch (_) {}
+  }
+
+  // ── Close ───────────────────────────────────────────────
+  function closeLightbox() {
+    lb.classList.remove('diag-lb--open');
+    lb.addEventListener('transitionend', function handler() {
+      lb.style.display = 'none';
+      lb.removeEventListener('transitionend', handler);
+    }, { once: true });
+
+    document.body.style.overflow = '';
+
+    try { screen.orientation.unlock(); } catch (_) {}
+  }
+
+  lbBack.addEventListener('click', closeLightbox);
+
+  // Close on backdrop tap (outside the image)
+  lb.addEventListener('click', e => {
+    if (e.target === lb || e.target.classList.contains('diag-lb-stage')) {
+      closeLightbox();
+    }
+  });
+
+  // ESC key
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && lb.classList.contains('diag-lb--open')) {
+      closeLightbox();
+    }
+  });
+
+  // Touch swipe down to close (mobile)
+  let touchStartY = 0;
+  lb.addEventListener('touchstart', e => { touchStartY = e.touches[0].clientY; }, { passive: true });
+  lb.addEventListener('touchend', e => {
+    const delta = e.changedTouches[0].clientY - touchStartY;
+    if (delta > 60) closeLightbox();  // swipe down 60px+ = close
+  }, { passive: true });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderTimeline();
   renderProjects();
@@ -1332,4 +1420,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initOwnerAdmin();
   initAgentChips();
   initRouter();
+  initDiagLightbox();
 });
