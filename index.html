@@ -784,19 +784,81 @@
         </article>
 
         <!-- Card 2: Safer Logistics -->
-        <article class="card pb-card">
+        <article class="card pb-card pb-card--logistics">
           <div class="pb-card-icon pb-icon--gold">🚛</div>
           <h3 class="pb-card-title">Safer Logistics &amp; Bridge Strike Risk Reduction</h3>
-          <p class="pb-card-body">4P3X Verse™ route and fleet products can support safer logistics by helping drivers, controllers, and vehicle operators plan journeys with clearer awareness of vehicle height, width, weight, restrictions, hazards, route confidence, and legal-critical information.</p>
+
+          <p class="pb-card-body">4P3X Verse™ route and fleet products can support safer logistics by helping drivers, controllers, and vehicle operators plan journeys with clearer awareness of vehicle height, width, weight, length, restrictions, hazards, route confidence, and legal-critical information.</p>
+
           <p class="pb-card-body pb-caveat">The system is designed to improve awareness and support structured checks — not to guarantee a legally safe or incident-free route. Human responsibility, controller review, and driver judgement remain essential.</p>
-          <ul class="pb-examples">
-            <li>Vehicle profile checks</li>
-            <li>Height / width / weight awareness</li>
-            <li>Route hazard warnings</li>
-            <li>Driver acknowledgement before departure</li>
-            <li>Controller dashboard oversight</li>
-            <li>Route confidence scoring</li>
-          </ul>
+
+          <!-- Feature grid -->
+          <div class="pb-logistics-grid">
+
+            <div class="pb-logistics-item">
+              <span class="pb-logistics-icon">📋</span>
+              <div>
+                <strong class="pb-logistics-label">Vehicle Profile Checks</strong>
+                <p class="pb-logistics-desc">Pre-departure structured check against the registered vehicle profile — confirming dimensions and category are logged before the journey begins.</p>
+              </div>
+            </div>
+
+            <div class="pb-logistics-item">
+              <span class="pb-logistics-icon">📐</span>
+              <div>
+                <strong class="pb-logistics-label">Height / Width / Weight / Length Awareness</strong>
+                <p class="pb-logistics-desc">Full four-dimension vehicle profile — height, width, gross weight, and vehicle length — matched against known route restrictions, low bridges, narrow roads, weight-limited crossings, and length-restricted junctions.</p>
+              </div>
+            </div>
+
+            <div class="pb-logistics-item">
+              <span class="pb-logistics-icon">⚠️</span>
+              <div>
+                <strong class="pb-logistics-label">Route Hazard Warnings</strong>
+                <p class="pb-logistics-desc">Flagged hazard points along a planned route — including low bridges, height-restricted roads, weight limits, width restrictions, and length-critical junctions — surfaced before departure, not during.</p>
+              </div>
+            </div>
+
+            <div class="pb-logistics-item">
+              <span class="pb-logistics-icon">✅</span>
+              <div>
+                <strong class="pb-logistics-label">Driver Acknowledgement Before Departure</strong>
+                <p class="pb-logistics-desc">A structured digital acknowledgement step — the driver confirms vehicle dimensions, reviews flagged hazards, and accepts responsibility before the journey is logged as cleared. Creates an auditable pre-departure record.</p>
+              </div>
+            </div>
+
+            <div class="pb-logistics-item">
+              <span class="pb-logistics-icon">🖥️</span>
+              <div>
+                <strong class="pb-logistics-label">Controller Dashboard Oversight</strong>
+                <p class="pb-logistics-desc">Controller-facing dashboard showing fleet vehicle profiles, pending acknowledgements, route confidence scores, flagged hazards, and journey status. Supports oversight without replacing controller judgement.</p>
+              </div>
+            </div>
+
+            <div class="pb-logistics-item pb-logistics-item--highlight">
+              <span class="pb-logistics-icon">📊</span>
+              <div>
+                <strong class="pb-logistics-label">Route Confidence Scoring</strong>
+                <p class="pb-logistics-desc">A calculated confidence indicator based on vehicle height, width, weight, and <strong>length</strong> matched against known route restriction data. Scored as High / Medium / Low confidence — giving drivers and controllers a structured signal, not a guarantee. Score drops when any dimension approaches or exceeds a known restriction threshold on the planned route.</p>
+                <div class="pb-confidence-bar-wrap">
+                  <div class="pb-confidence-bar pb-confidence-bar--high">
+                    <span class="pb-confidence-label">High Confidence</span>
+                    <span class="pb-confidence-sub">No flagged restrictions on planned route for this vehicle profile</span>
+                  </div>
+                  <div class="pb-confidence-bar pb-confidence-bar--med">
+                    <span class="pb-confidence-label">Medium Confidence</span>
+                    <span class="pb-confidence-sub">One or more restrictions flagged — review recommended before departure</span>
+                  </div>
+                  <div class="pb-confidence-bar pb-confidence-bar--low">
+                    <span class="pb-confidence-label">Low Confidence</span>
+                    <span class="pb-confidence-sub">Route has known restriction conflicts with this vehicle — alternative route or controller sign-off required</span>
+                  </div>
+                </div>
+                <p class="pb-logistics-note">Route confidence scoring supports decision-making only. It does not replace route planning expertise, legal checks, or controller approval.</p>
+              </div>
+            </div>
+
+          </div><!-- end .pb-logistics-grid -->
         </article>
 
         <!-- Card 3: Community Welfare -->
