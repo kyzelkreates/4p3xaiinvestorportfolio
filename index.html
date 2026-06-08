@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Critical: hide non-active pages before JS/CSS loads -->
+  <style>
+    .page-hidden { display: none !important; }
+    .page-visible { display: block; }
+  </style>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>4P3X Verse™ Investor Portfolio — Powered by 4P3X Intelligent AI™</title>
@@ -54,7 +59,7 @@
   <main id="main-content" class="spa-main">
 
     <!-- 1. HERO -->
-    <section id="top" class="hero section-pad">
+    <section id="top" class="hero section-pad page-visible">
       <div class="hero-grid">
         <div class="hero-copy">
           <span class="eyebrow">Investor Portfolio · Modular AI-Powered Software Ecosystem</span>
@@ -86,7 +91,7 @@
     </section>
 
     <!-- 2. ABOUT ME -->
-    <section id="about" class="section-pad about-section">
+    <section id="about" class="section-pad about-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">About Me · Founder Story</span>
         <h2>Ciaran / Kyzel Kreates™</h2>
@@ -140,7 +145,7 @@
     </section>
 
     <!-- 3. INVESTOR -->
-    <section id="investor" class="section-pad panel-section">
+    <section id="investor" class="section-pad panel-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Investor Overview</span>
         <h2>Why 4P3X Verse™ matters</h2>
@@ -188,7 +193,7 @@
 
 
     <!-- NEW: PLATFORM FACTORY MODEL (inserted between investor and business plan) -->
-    <section id="platform-factory" class="section-pad pf-section">
+    <section id="platform-factory" class="section-pad pf-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Platform Factory Model</span>
         <h2>The Platform Factory Model: 1 Base → 11 Products → Thousands of Possibilities</h2>
@@ -364,7 +369,7 @@
 
 
     <!-- 5 BASES → 55 DIRECTIONS -->
-    <section id="five-bases" class="section-pad fb-section">
+    <section id="five-bases" class="section-pad fb-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Modular Product Factory</span>
         <h2>5 Base Systems → 55 Direct Product Directions</h2>
@@ -581,7 +586,7 @@
 
 
     <!-- BUILD & VALIDATION STATUS -->
-    <section id="build-validation" class="section-pad bv-section">
+    <section id="build-validation" class="section-pad bv-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Build Milestone · Architecture Validation</span>
         <h2>Build &amp; Validation Status</h2>
@@ -728,7 +733,7 @@
     </section>
 
     <!-- PUBLIC BENEFIT SECTION -->
-    <section id="public-benefit" class="section-pad pb-section">
+    <section id="public-benefit" class="section-pad pb-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Social Value &amp; Public Impact</span>
         <h2>Public Benefit: Products Designed to Help People, Organisations, and Communities</h2>
@@ -983,7 +988,7 @@
 
 
     <!-- NEW: INDICATIVE VALUATION -->
-    <section id="valuation" class="section-pad val-section">
+    <section id="valuation" class="section-pad val-section page-hidden">
 
       <div class="section-heading">
         <span class="eyebrow">Investor-Facing Valuation</span>
@@ -1086,7 +1091,7 @@
 
     </section>
     <!-- 4. BUSINESS PLAN -->
-    <section id="business" class="section-pad business-section">
+    <section id="business" class="section-pad business-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Business Plan</span>
         <h2>Commercial route for 4P3X Verse™</h2>
@@ -1145,7 +1150,7 @@
     </section>
 
     <!-- 5. TIMELINE -->
-    <section id="timeline" class="section-pad panel-section">
+    <section id="timeline" class="section-pad panel-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">4P3X Verse™ Evolution Timeline</span>
         <h2>V1 to V6: One base becomes a future infrastructure</h2>
@@ -1166,7 +1171,7 @@
     </section>
 
     <!-- 6. LIVE PROJECTS -->
-    <section id="products" class="section-pad">
+    <section id="products" class="section-pad page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Live Deployed Projects</span>
         <h2>11 Live Deployed Product Demos</h2>
@@ -1177,7 +1182,7 @@
     </section>
 
     <!-- 7. KYZEL CLARITY -->
-    <section id="clarity" class="section-pad clarity-section panel-section">
+    <section id="clarity" class="section-pad clarity-section panel-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Kyzel Clarity™ · Powered by 4P3X Intelligent AI™ · Created by Kyzel Kreates™</span>
         <h2>The communication bridge</h2>
@@ -1211,7 +1216,7 @@
     </section>
 
     <!-- 8. POSSIBLE USES -->
-    <section id="uses" class="section-pad">
+    <section id="uses" class="section-pad page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Possible Uses</span>
         <h2>What 4P3X Verse™ can become</h2>
@@ -1221,7 +1226,7 @@
     </section>
 
     <!-- 9. ARCHITECTURE -->
-    <section id="architecture" class="section-pad panel-section">
+    <section id="architecture" class="section-pad panel-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Architecture &amp; Diagrams</span>
         <h2>How 4P3X Verse™ is built</h2>
@@ -1303,7 +1308,7 @@
     </section>
 
     <!-- 10. AI AGENTS -->
-    <section id="agents" class="section-pad">
+    <section id="agents" class="section-pad page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Embedded AI Agents · Powered by 4P3X Intelligent AI™</span>
         <h2>Portfolio AI Guide</h2>
@@ -1358,7 +1363,7 @@
     </section>
 
     <!-- 11. CONTACT -->
-    <section id="contact" class="section-pad panel-section">
+    <section id="contact" class="section-pad panel-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Contact · Investor Interest</span>
         <h2>Get in touch</h2>
@@ -1554,7 +1559,7 @@
 
     <!-- 12. ADMIN -->
     <!-- 12. ADMIN — PASSWORD PROTECTED -->
-    <section id="admin" class="section-pad">
+    <section id="admin" class="section-pad page-hidden">
       <!-- LOCK SCREEN (shown by default) -->
       <div id="adminLock" class="admin-lock-screen">
         <div class="card admin-lock-card">
@@ -1706,7 +1711,7 @@
 
 
     <!-- 13. INSTALL PWA -->
-    <section id="pwa" class="section-pad pwa-section panel-section">
+    <section id="pwa" class="section-pad pwa-section panel-section page-hidden">
       <div class="section-heading">
         <span class="eyebrow">Install Portfolio PWA</span>
         <h2>Install the 4P3X Verse™ Investor Portfolio as an app</h2>
