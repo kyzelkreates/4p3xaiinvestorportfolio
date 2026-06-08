@@ -3799,3 +3799,94 @@ nav [data-page]:hover {
   .pb-logistics-item--highlight { grid-column: 1 / -1; }
 }
 
+
+/* ══════════════════════════════════════════════════════════
+   PLATFORM FACTORY — 6-card scale grid (1,5,10,20,50,100)
+══════════════════════════════════════════════════════════ */
+.pf-scale-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .pf-scale-cards-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1200px) {
+  .pf-scale-cards-grid { grid-template-columns: repeat(6, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .pf-scale-cards-grid { grid-template-columns: 1fr; }
+}
+
+.pf-scale-card {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  padding: 1.1rem 1rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.pf-scale-tag {
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: .15rem;
+}
+
+.pf-scale-number {
+  font-size: clamp(2.4rem, 5vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -.03em;
+}
+
+.pf-scale-title {
+  font-size: .78rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.pf-scale-metric {
+  font-size: clamp(.78rem, 1.3vw, .88rem);
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.4;
+  margin: .25rem 0 .1rem;
+}
+
+.pf-scale-desc {
+  font-size: clamp(.75rem, 1.2vw, .82rem);
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+  flex: 1;
+}
+
+/* Per-card accent colours */
+.pf-scale-1   { border-color: rgba(76,255,104,.3);   }
+.pf-scale-1   .pf-scale-number { color: var(--green); }
+
+.pf-scale-5   { border-color: rgba(245,200,75,.3);   }
+.pf-scale-5   .pf-scale-number { color: var(--gold); }
+
+.pf-scale-10  { border-color: rgba(179,92,255,.3);   }
+.pf-scale-10  .pf-scale-number { color: var(--purple); }
+
+.pf-scale-20  { border-color: rgba(76,200,255,.3);   }
+.pf-scale-20  .pf-scale-number { color: #4cc8ff; }
+
+.pf-scale-50  { border-color: rgba(255,150,76,.3);   }
+.pf-scale-50  .pf-scale-number { color: #ff964c; }
+
+.pf-scale-100 { border-color: rgba(255,76,76,.3);    }
+.pf-scale-100 .pf-scale-number { color: #ff6060; }
+
