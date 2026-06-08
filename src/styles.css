@@ -3890,3 +3890,36 @@ nav [data-page]:hover {
 .pf-scale-100 { border-color: rgba(255,76,76,.3);    }
 .pf-scale-100 .pf-scale-number { color: #ff6060; }
 
+
+/* ── Scale card status badges ─────────────────────────── */
+.pf-scale-status {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  padding: .28rem .65rem;
+  border-radius: 20px;
+  margin: .2rem 0 .35rem;
+  width: fit-content;
+}
+
+.pf-status--proven {
+  background: rgba(76,255,104,.12);
+  color: var(--green);
+  border: 1px solid rgba(76,255,104,.3);
+}
+
+.pf-status--built {
+  background: rgba(245,200,75,.1);
+  color: var(--gold);
+  border: 1px solid rgba(245,200,75,.3);
+}
+
+.pf-status--prebuild {
+  background: rgba(255,255,255,.05);
+  color: var(--muted);
+  border: 1px solid rgba(255,255,255,.1);
+}
