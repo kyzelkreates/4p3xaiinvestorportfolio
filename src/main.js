@@ -1105,7 +1105,7 @@ function initTextbeeConfig() {
 
 const SPA_PAGES = [
   'top','about','investor','platform-factory','five-bases',
-  'public-benefit','valuation','business','timeline','products',
+  'build-validation','public-benefit','valuation','business','timeline','products',
   'clarity','uses','architecture','agents','contact','admin','pwa'
 ];
 
