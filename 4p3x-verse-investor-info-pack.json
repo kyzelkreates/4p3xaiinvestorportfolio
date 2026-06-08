@@ -1,0 +1,20 @@
+{
+  "name": "4P3X Verse\u2122 Investor Portfolio PWA",
+  "brand": "Powered by 4P3X Intelligent AI\u2122 \u2014 Created by Kyzel Kreates\u2122",
+  "purpose": "Downloadable/installable PWA and investor information pack for the 4P3X Verse\u2122 ecosystem.",
+  "included_sections": [
+    "Hero",
+    "Investor",
+    "Business Plan",
+    "Timeline",
+    "Live Projects",
+    "Possible Uses",
+    "Architecture Diagrams",
+    "About Me",
+    "AI Agents",
+    "Contact",
+    "Admin",
+    "PWA Install"
+  ],
+  "note": "Live demo URLs require internet access. Core portfolio shell is cacheable for offline review after first load."
+}
