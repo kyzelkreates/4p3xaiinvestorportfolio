@@ -15,7 +15,7 @@ const TIMELINE_DATA = [
     stage: 'Fully Working Deployed Demo/Live Product',
     stageColor: 'green',
     url: 'https://basev0.vercel.app/',
-    desc: 'The original reusable modular foundation. Already refactored into 10+ deployed variants. Backend-configurable for live operational use.',
+    desc: 'The original reusable modular foundation. Already refactored into 11 live deployed product demos. Backend-configurable for live operational use.',
     active: true
   },
   {
@@ -67,24 +67,32 @@ const TIMELINE_DATA = [
 
 const PROJECTS_DATA = [
   {
-    title: '4P3X Intelligent AI™ Base Core',
-    subtitle: 'Refactorable Project Foundation',
+    num: 1,
+    title: '4P3X Intelligent AI™',
+    subtitle: 'Base Core Refactorable Project — Created by Kyzel Kreates™',
+    brand: '4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://basev0.vercel.app/',
-    status: 'Fully Working Deployed Demo/Live Product Base',
-    desc: 'The original reusable modular foundation. Already refactored into 10+ deployed variants. Can become a live operational system with backend configuration.',
+    purpose: 'Reusable base architecture proving the dashboard / PWA / product foundation.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
+    desc: 'The original reusable modular foundation. Already refactored into 11 live deployed product demos. Backend-configurable for live operational use.',
     caseStudy: {
       who: 'Founders, product studios, and sector organisations that need a ready-made AI-powered dashboard and workflow system without building from scratch.',
       what: 'A fully working modular base system — control dashboard, user-facing PWA, AI agent layer, and backend-ready architecture — designed to be refactored into any sector product.',
       where: 'Deployed live at basev0.vercel.app. Can be accessed from any device as an installable PWA.',
-      when: 'Built and deployed during the initial 4P3X Verse™ development window. All 10+ deployed variants in this portfolio trace back to this single base.',
+      when: 'Built and deployed during the initial 4P3X Verse™ development window. All 11 live deployed product demos in this portfolio trace back to this single base.',
       how: 'A single reusable HTML/CSS/JS foundation with modular sections, embedded AI agent, service worker for offline use, and a clear separation between demo mode (local state) and live mode (backend-connected). Refactoring takes this one base and adapts it to a target sector, branding, and workflow.'
     }
   },
   {
+    num: 2,
     title: 'TherapyLink™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'TherapyLink™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://therapylinkos.vercel.app/4p3x_carelink/ap3x/demo/index.html',
-    status: 'Live Deployed Demo/Live Product',
+    purpose: 'Therapy / support workflow demo with dashboard / PWA-style care pathway.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
     desc: 'Care, therapy support, wellbeing check-ins, and workflow demonstration with a clear demo/live product pathway.',
     caseStudy: {
       who: 'Therapy providers, care organisations, NHS-adjacent services, mental health charities, and wellbeing professionals who need a structured digital support and check-in platform.',
@@ -95,10 +103,14 @@ const PROJECTS_DATA = [
     }
   },
   {
+    num: 3,
     title: 'AutoSkill OS™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'AutoSkill OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://autoskillos.vercel.app/ap3x/demo/index.html',
-    status: 'Live Deployed Demo/Live Product',
+    purpose: 'Skills, training, and learner-progress product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
     desc: 'Learning, automotive skills, training progression, and structured knowledge platform variant.',
     caseStudy: {
       who: 'Automotive training providers, trade schools, fleet operators, employer-led training programmes, and skills academies looking for a structured digital learning platform.',
@@ -109,115 +121,147 @@ const PROJECTS_DATA = [
     }
   },
   {
+    num: 4,
     title: "Big V's Best Routes Fleet OS™",
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: "Big V's Best Routes Fleet OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™",
     url: 'https://bigvsfleetos.vercel.app/',
-    status: 'Live Deployed Demo/Live Product',
+    purpose: 'Safety-first fleet / route / compliance product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
     desc: 'Fleet, route, legal-safety, driver PWA, and compliance-oriented navigation system pathway.',
     caseStudy: {
       who: 'Transport companies, logistics operators, fleet managers, HGV and delivery businesses, and councils managing vehicle compliance and route safety.',
       what: 'A fleet operations PWA combining route planning, bridge-strike prevention, vehicle profiles, driver check-ins, legal compliance tracking, and a control dashboard for fleet managers.',
       where: 'Live at bigvsfleetos.vercel.app. Driver-facing PWA installable on mobile for in-cab use.',
       when: 'Developed to demonstrate how the 4P3X base solves a very specific real-world operational problem — driver safety, route compliance, and fleet oversight.',
-      how: 'The base was refactored with route and compliance workflows, vehicle profile management, AI-guided safety checks, and a dual-interface model — fleet manager dashboard and driver-facing PWA. Bridge heights, weight limits, and route flags are demonstrated in the UI. Live mode connects to a route database and driver auth system.'
+      how: 'The base was refactored with route and compliance workflows, vehicle profile management, AI-guided safety checks, and a dual-interface model — fleet manager dashboard and driver-facing PWA.'
     }
   },
   {
+    num: 5,
     title: 'ResponseLink OS™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'ResponseLink OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://responselinkosv1.vercel.app/',
-    status: 'Live Deployed Demo/Live Product',
+    purpose: 'Community welfare, outreach, responder coordination, and service-user support pathway.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
     desc: 'Community welfare, responder coordination, service-user check-in, and safety-first mobile support platform.',
     caseStudy: {
       who: 'Community welfare organisations, housing associations, social prescribing services, outreach teams, and any service coordinating support across multiple responders and service users.',
       what: 'A coordination and welfare check-in platform that connects responders to service users, tracks welfare contacts, manages referrals, and provides a real-time coordination dashboard.',
       where: 'Live at responselinkosv1.vercel.app. Designed as a mobile-first PWA for field-based responders.',
-      when: 'Built to demonstrate the community welfare and coordination use case — one of the highest-demand sectors for digital transformation in the UK public and third sector.',
+      when: 'Built to demonstrate the community welfare and coordination use case.',
       how: 'The 4P3X base was adapted with welfare check-in flows, responder assignment, service-user profiles, and coordination-oriented AI guidance. Demo mode shows the full workflow. Live mode requires a secure backend with GDPR-compliant data storage and role-based access control.'
     }
   },
   {
+    num: 6,
     title: 'CareerLink OS™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'CareerLink OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xaiclos.vercel.app/',
-    status: 'Live Deployed Demo/Live Product',
+    purpose: 'Career support, coaching, progress, and opportunity-readiness product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
     desc: 'Career support, employment pathway, skills tracking, and AI-guided progression system variant.',
     caseStudy: {
       who: 'Employment support services, job centres, careers advisors, training providers, recruitment businesses, and employer-funded upskilling programmes.',
       what: 'A career support and employment pathway platform covering skills assessment, job-readiness tracking, CV and application guidance, milestone progression, and AI-guided career navigation.',
       where: 'Live at 4p3xaiclos.vercel.app. Installable as a PWA for job seekers to use on mobile.',
-      when: 'Developed to demonstrate the career and employment sector variant — a high-priority area for UK public sector and charity digital investment.',
-      how: 'The base was refactored with career-specific workflow logic, skills gap tracking, goal setting, job application milestone flows, and employment-oriented AI guidance. Live mode connects to a job seeker database and employer-facing control panel.'
+      when: 'Built to demonstrate the career and employment support sector pathway.',
+      how: 'The base was adapted with career progression flows, skills mapping, goal-setting modules, and employment-oriented AI guidance. Demo mode provides a complete walkthrough of the user journey.'
     }
   },
   {
+    num: 7,
     title: 'Recharge Burnout Recovery™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'Recharge Burnout Recovery™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://burnout-mh.vercel.app/ap3x/companion/index.html',
-    status: 'Live Deployed Demo/Live Product',
-    desc: 'Burnout recovery companion PWA showing wellbeing support, personal tracking, and guided support flows.',
+    purpose: 'Burnout recovery, guided wellbeing, and supportive PWA product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
+    desc: 'Burnout recovery, guided wellbeing journeys, and supportive AI companion platform variant.',
     caseStudy: {
-      who: 'Individuals experiencing burnout, mental health charities, employee wellbeing programmes, HR departments, and health coaches offering structured recovery support.',
-      what: 'A personal burnout recovery companion PWA with daily check-ins, recovery progress tracking, guided reflection exercises, energy level monitoring, and AI-supported wellbeing guidance.',
-      where: 'Live at burnout-mh.vercel.app. Designed as a mobile-first installable companion app for daily personal use.',
-      when: 'Built to demonstrate the mental health and personal wellbeing companion use case — one of the fastest-growing app categories in the UK health and HR sectors.',
-      how: 'The 4P3X base was adapted with a personal wellbeing tracking model, daily check-in flows, recovery phase logic, and empathetic AI guidance. Demo mode provides a full lived experience of the product. Live mode adds persistent user profiles, progress history, and optional therapist or coach oversight.'
+      who: 'Wellbeing services, employee assistance programmes, mental health charities, HR wellbeing teams, and healthcare-adjacent services supporting burnout recovery.',
+      what: 'A guided burnout recovery and wellbeing companion PWA with check-in flows, recovery milestone tracking, supportive AI guidance, and a personal wellness dashboard.',
+      where: 'Live at burnout-mh.vercel.app. Mobile-first installable PWA for personal daily use.',
+      when: 'Built to demonstrate the mental health and wellbeing support pathway from the 4P3X base.',
+      how: 'The base was adapted with recovery-focused check-in logic, wellbeing progression tracking, supportive language layers, and guided reflection modules. All AI guidance is bounded — no medical claims are made.'
     }
   },
   {
+    num: 8,
     title: 'Four Paws Training and Enrichment Academy™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'Four Paws Training and Enrichment Academy™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://fourpawsdemo.vercel.app/ap3x/demo/index.html#deploy',
-    status: 'Live Deployed Demo/Live Product',
-    desc: 'Dog training LMS, learning progression, course content, enrichment, and education platform pathway.',
+    purpose: 'Training academy, lesson, progress, and learner PWA product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
+    desc: 'Pet training academy, lesson management, learner progress, and structured training platform variant.',
     caseStudy: {
-      who: 'Dog trainers, pet behaviour specialists, veterinary practices, dog training schools, and pet care businesses that want a structured digital course and client management platform.',
-      what: 'A dog training LMS and enrichment academy platform featuring structured course modules, training progression tracking, enrichment activity guides, and a trainer control dashboard.',
-      where: 'Live at fourpawsdemo.vercel.app. Installable as a PWA for dog owners and trainers to use on mobile.',
-      when: 'Developed to demonstrate that the 4P3X base can serve niche specialist education markets just as effectively as enterprise sectors — proving the breadth of the refactor model.',
-      how: 'The base architecture was adapted with pet training course logic, learner (dog owner) progression tracking, enrichment content structure, and training-oriented AI guidance. A real dog training business could connect their course content and client database to activate live mode.'
+      who: 'Pet training businesses, animal behaviour specialists, training academies, and any skills-based training provider needing a structured course and progress platform.',
+      what: 'A training academy PWA with lesson modules, learner progress tracking, course management, and an AI-guided training assistant — adapted for pet training but usable across many training contexts.',
+      where: 'Live at fourpawsdemo.vercel.app. Installable as a mobile PWA for learners.',
+      when: 'Built to demonstrate how the same 4P3X training architecture works in a niche, personality-driven sector.',
+      how: 'The base was refactored with lesson content structure, learner progress logic, course management flows, and a training-specific AI guide. Demonstrates the versatility of the base across very different branding and sector contexts.'
     }
   },
   {
+    num: 9,
     title: 'Quantum Compliance OS™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'Quantum Compliance OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xaiqc.netlify.app/',
-    status: 'Live Deployed Demo/Live Product',
-    desc: 'Quantum readiness, audit, compliance reporting, and business risk preparation platform.',
+    purpose: 'Compliance, audit, evidence, and readiness product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
+    desc: 'Compliance tracking, audit readiness, evidence management, and regulatory preparation platform variant.',
     caseStudy: {
-      who: 'Enterprise risk and compliance teams, legal firms, regulated industries (finance, healthcare, defence), and businesses that need to prepare for quantum computing security threats.',
-      what: 'A quantum compliance and audit readiness platform covering cryptographic risk assessment, compliance reporting, threat readiness scoring, and AI-guided remediation planning.',
-      where: 'Live at 4p3xaiqc.netlify.app. Desktop-first control dashboard with mobile support.',
-      when: 'Built to demonstrate that the 4P3X architecture can address emerging enterprise-level compliance challenges — an area with significant government and institutional investment.',
-      how: 'The base was refactored with compliance audit workflow logic, readiness scoring models, risk categorisation, regulatory framework mapping, and compliance-oriented AI guidance. Live mode would connect to an organisation\'s existing security and audit infrastructure.'
+      who: 'Regulated businesses, compliance teams, audit-facing organisations, legal and HR functions, and any sector where evidence and audit readiness is required.',
+      what: 'A compliance and audit readiness PWA with evidence tracking, regulatory checklist management, audit trail logging, and an AI-guided compliance assistant.',
+      where: 'Live at 4p3xaiqc.netlify.app. Accessible across devices as a browser-based and installable application.',
+      when: 'Built to demonstrate the compliance and regulatory product direction from the 4P3X base.',
+      how: 'The base was adapted with compliance tracking logic, evidence management flows, audit checklist structures, and compliance-oriented AI guidance. Demo mode provides a full walkthrough. Live mode requires a secure backend with audit log persistence and role-based access.'
     }
   },
   {
-    title: 'TrustSheild OS™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    num: 10,
+    title: 'TrustShield OS™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'TrustShield OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xaitsos.netlify.app/#/welcome',
-    status: 'Live Deployed Demo/Live Product',
-    desc: 'Reputation monitoring, crisis response, control dashboard, and PWA-driven response workflow platform.',
+    purpose: 'Trust, reputation, partner-readiness, and confidence-signalling product direction.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
+    desc: 'Trust signalling, reputation management, partner-readiness scoring, and confidence-building platform variant.',
     caseStudy: {
-      who: 'PR agencies, corporate communications teams, brand managers, public figures, and any organisation that needs to monitor, protect, and recover their reputation.',
-      what: 'A reputation monitoring and crisis response platform featuring sentiment tracking, crisis alert workflows, brand health scoring, response playbooks, and an AI-guided comms control dashboard.',
-      where: 'Live at 4p3xaitsos.netlify.app. Control-dashboard focused with a mobile PWA for on-the-go crisis response.',
-      when: 'Developed to demonstrate the reputation and crisis management sector — a high-value vertical where rapid, structured digital response tools command strong commercial pricing.',
-      how: 'The 4P3X base was adapted with reputation scoring logic, crisis escalation workflows, media monitoring indicators, response playbook structure, and comms-oriented AI guidance. Live mode connects to social listening APIs, news monitoring feeds, and a secure comms backend.'
+      who: 'Businesses seeking to demonstrate trustworthiness and partner-readiness, procurement-facing organisations, and any service needing a structured trust and reputation layer.',
+      what: 'A trust and reputation management PWA with partner-readiness scoring, evidence-backed confidence signals, trust profile management, and an AI-guided credibility assistant.',
+      where: 'Live at 4p3xaitsos.netlify.app. Accessible from any device.',
+      when: 'Built to demonstrate the trust and reputation product direction — a sector with growing demand as digital procurement and partner verification becomes standard.',
+      how: 'The base was adapted with trust scoring logic, evidence and accreditation management flows, partner-readiness dashboards, and trust-oriented AI guidance. Demo mode provides a full functional walkthrough.'
     }
   },
   {
+    num: 11,
     title: 'Kyzel Clarity™',
-    subtitle: 'Powered by 4P3X Intelligent AI™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'Kyzel Clarity™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xkyzelclarityai.netlify.app/',
-    status: 'Live Deployed AI Explainer PWA',
-    desc: 'Built to explain complex projects clearly. Its knowledge base can be changed to support different products, subjects, organisations, or domains.',
+    purpose: 'AI-powered communication bridge and explainability product with changeable knowledge base.',
+    status: 'Live deployed demo',
+    badges: ['Demo/live pathway', 'Backend-ready'],
+    desc: 'AI-powered communication explainer and clarity tool — bridging complexity with plain-language AI guidance and a changeable knowledge base.',
     caseStudy: {
-      who: 'Founders, investors, educators, product teams, onboarding specialists, and any organisation that needs a smart, conversational knowledge assistant for a specific domain.',
-      what: 'An AI-powered explainer and knowledge assistant PWA. The embedded knowledge base can be swapped to cover any project, product, subject, or organisation — making it a reusable AI companion platform.',
-      where: 'Live at 4p3xkyzelclarityai.netlify.app. Installable as a mobile or desktop PWA for offline knowledge access.',
-      when: 'Built initially to explain the 4P3X Verse™ ecosystem clearly to investors and reviewers. Demonstrated during the same development window as the rest of the portfolio.',
-      how: 'The knowledge base is structured as a JSON data file embedded in the PWA. Swapping the knowledge base adapts the assistant to any domain — product support, onboarding, education, compliance guidance, or investor relations. The AI guidance layer responds to user queries using the loaded knowledge context.'
+      who: 'Founders, neurodivergent communicators, product teams, and anyone who needs to explain complex systems in clearer language to investors, partners, or users.',
+      what: 'An installable AI-powered explainer system with a changeable knowledge base — designed to translate complex product architecture, systems thinking, or technical concepts into accessible language.',
+      where: 'Live at 4p3xkyzelclarityai.netlify.app. Installable as a PWA across all devices.',
+      when: 'Built directly from lived experience — Ciaran (Kyzel Kreates™) is neurodivergent and built this to bridge his own communication needs. It became a deployable product in its own right.',
+      how: 'The 4P3X base was adapted with a knowledge base layer, explainability-first AI guidance, plain-language summarisation flows, and an accessible communication interface. The knowledge base is changeable — making it adaptable to any product, person, or organisation that needs clearer communication.'
     }
   }
 ];
@@ -302,24 +346,40 @@ function renderTimeline() {
 function renderProjects() {
   const grid = document.getElementById('projectGrid');
   if (!grid) return;
+
+  // Proof statement
+  const proof = document.createElement('p');
+  proof.className = 'projects-proof';
+  proof.textContent = '11 live deployed demos prove that one reusable 4P3X base can be refactored into many sector-ready product directions. Demo Mode shows the product. Live Mode runs the product.';
+  grid.before(proof);
+
   grid.innerHTML = PROJECTS_DATA.map((p, i) => `
-    <article class="project-card card" role="listitem">
-      <p class="status">${p.status}</p>
-      <h3>${p.title}</h3>
-      <p style="color:var(--purple);font-size:.82rem;font-weight:800;margin:.2rem 0 .4rem;">${p.subtitle}</p>
-      <p>${p.desc}</p>
-      <div class="project-links">
-        <a href="${p.url}" target="_blank" rel="noopener">Open live deployment &rarr;</a>
-        ${p.caseStudy ? `<button class="btn-case-study" data-case="${i}" aria-label="View case study for ${escapeHtml(p.title)}">Case Study</button>` : ''}
+    <article class="card proj-card" role="listitem" data-index="${i}">
+      <div class="proj-card-top">
+        <div class="proj-num-badge">${p.num}</div>
+        <div class="proj-status-badge">
+          <span class="proj-dot"></span>${p.status}
+        </div>
+      </div>
+      <h3 class="proj-title">${p.title}</h3>
+      <p class="proj-subtitle">${p.subtitle}</p>
+      <p class="proj-purpose">${p.purpose}</p>
+      <div class="proj-badges">
+        ${p.badges.map(b => `<span class="proj-badge">${b}</span>`).join('')}
+      </div>
+      <div class="proj-actions">
+        <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="btn primary proj-btn">Open Live Demo</a>
+        <button class="btn ghost proj-btn btn-case-study" data-index="${i}" type="button">View details</button>
       </div>
     </article>
   `).join('');
 
-  // Attach click handlers after render
-  grid.querySelectorAll('[data-case]').forEach(btn => {
-    btn.addEventListener('click', () => openCaseStudy(parseInt(btn.dataset.case)));
+  // Re-bind case study buttons
+  grid.querySelectorAll('.btn-case-study').forEach(btn => {
+    btn.addEventListener('click', () => openCaseStudy(Number(btn.dataset.index)));
   });
 }
+
 
 /* ─── RENDER: USES ─────────────────────────────────────── */
 
@@ -390,8 +450,8 @@ const AGENT_KNOWLEDGE = {
     patterns: [
       { test: /about|ciaran|founder|kyzel kreates/i, reply: 'Ciaran (Kyzel Kreates™) is a neurodivergent creator and systems thinker who built the 4P3X Verse™ during a rapid, self-directed learning window. Using AI-assisted development workflows and deep modular systems thinking, Ciaran turned complex internal system ideas into live deployed products. Kyzel Clarity™ was also built as a communication bridge to explain complex architectures clearly.' },
       { test: /demo.?mode|live.?mode|demo.*live|how.*(work|run)/i, reply: 'Demo Mode shows the product exactly as it would work — full UI, flows, and interactions. Live Mode runs the product for real users. The switch is controlled: add a backend (Supabase, Firebase, or REST API), configure authentication, enable persistent data storage, and the same frontend becomes a fully operational live product.' },
-      { test: /product|link|deployed|variant|version/i, reply: 'The portfolio includes 10+ live deployed variants: 4P3X Base Core (V1), TherapyLink™, AutoSkill OS™, Big V\'s Best Routes Fleet OS™, ResponseLink OS™, CareerLink OS™, Recharge Burnout Recovery™, Four Paws Training Academy™, Quantum Compliance OS™, TrustSheild OS™, and Kyzel Clarity™. Each is live, installable, and backend-ready.' },
-      { test: /invest|opportun|fund|partner|pilot|grant|employ/i, reply: 'The investor opportunity spans: investment, commercial pilots, partnerships, client build contracts, grant applications (training, wellbeing, compliance), employment/contract work, and licensing. The portfolio itself is the proof — 10+ working deployed products from one base architecture. No paying customers or revenue are currently claimed.' },
+      { test: /product|link|deployed|variant|version/i, reply: 'The portfolio includes 11 live deployed product demos: 4P3X Base Core (V1), TherapyLink™, AutoSkill OS™, Big V\'s Best Routes Fleet OS™, ResponseLink OS™, CareerLink OS™, Recharge Burnout Recovery™, Four Paws Training Academy™, Quantum Compliance OS™, TrustSheild OS™, and Kyzel Clarity™. Each is live, installable, and backend-ready.' },
+      { test: /invest|opportun|fund|partner|pilot|grant|employ/i, reply: 'The investor opportunity spans: investment, commercial pilots, partnerships, client build contracts, grant applications (training, wellbeing, compliance), employment/contract work, and licensing. The portfolio itself is the proof — 11 live deployed product demos from one base architecture. No paying customers or revenue are currently claimed.' },
       { test: /architectur|diagram|how.*(built|made|work)|structure|technical/i, reply: 'The architecture follows: one reusable 4P3X base → controlled sector refactor → deployed demo/live product → backend-connected operational platform. The control dashboard communicates with a backend API/DB, which syncs to the user-facing PWA in real time once live. The 4P3X Intelligent AI™ layer adds bounded agents on top of this infrastructure.' },
       { test: /timeline|v1|v2|v3|v4|v5|v6|evolution|version/i, reply: 'The 4P3X Verse™ evolution goes: V1 (1 base, fully deployed) → V2 (5 bases, early deployment) → V3 (10 bases, late development) → V4 (20 bases, early development) → V5 (50 bases, early development) → V6 (100 bases, concept stage). Each version multiplies the modular infrastructure capacity.' },
       { test: /pwa|install|app|offline/i, reply: 'Every 4P3X Verse™ product is designed as an installable PWA. After first load, the core shell works offline. Investors can install this portfolio as a device app for offline review, then reconnect to open live demos and submit contact interest.' },
@@ -1106,7 +1166,7 @@ function initTextbeeConfig() {
 const SPA_PAGES = [
   'top','about','investor','platform-factory','five-bases',
   'build-validation','public-benefit','valuation','business','timeline','products',
-  'clarity','uses','architecture','agents','contact','admin','pwa'
+  'clarity','uses','architecture','agents','contact',/*'admin' — accessed via Owner Admin btn only*/'pwa'
 ];
 
 function getPageFromHash() {
@@ -1196,6 +1256,48 @@ function initValSourceAccordion() {
   });
 }
 
+
+// ── Owner Admin discreet access ────────────────────────────────
+function initOwnerAdmin() {
+  const btn     = document.getElementById('ownerAdminBtn');
+  const section = document.getElementById('admin');
+  if (!btn || !section) return;
+
+  // Hide admin section from normal scroll flow by default
+  // (it remains in DOM, passcode-protected, accessible via btn or #admin hash)
+  section.style.display = 'none';
+
+  function showAdmin() {
+    section.style.display = '';
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  btn.addEventListener('click', showAdmin);
+
+  // Also show if URL hash is #admin on load
+  if (window.location.hash === '#admin') showAdmin();
+
+  // Listen for hash change (e.g. user pastes #admin URL)
+  window.addEventListener('hashchange', () => {
+    if (window.location.hash === '#admin') showAdmin();
+  });
+}
+
+
+// ── AI guide question chips ──────────────────────────────────────
+function initAgentChips() {
+  document.querySelectorAll('.agent-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const input = document.getElementById('agentInput');
+      const send  = document.getElementById('agentSend');
+      if (!input || !send) return;
+      input.value = chip.dataset.chip || chip.textContent.trim();
+      input.focus();
+      send.click();
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderTimeline();
   renderProjects();
@@ -1210,5 +1312,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTextbeeConfig();
   initCaseStudyModal();
   initValSourceAccordion();
+  initOwnerAdmin();
+  initAgentChips();
   initRouter();
 });
