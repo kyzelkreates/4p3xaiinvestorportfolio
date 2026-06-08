@@ -72,6 +72,7 @@ const PROJECTS_DATA = [
     subtitle: 'Base Core Refactorable Project — Created by Kyzel Kreates™',
     brand: '4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://basev0.vercel.app/',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/d41e50391_01_basev0.png',
     purpose: 'Reusable base architecture proving the dashboard / PWA / product foundation.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -90,6 +91,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'TherapyLink™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://therapylinkos.vercel.app/4p3x_carelink/ap3x/demo/index.html',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/5eeec32b6_02_therapylink.png',
     purpose: 'Therapy / support workflow demo with dashboard / PWA-style care pathway.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -108,6 +110,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'AutoSkill OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://autoskillos.vercel.app/ap3x/demo/index.html',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/16d38d9d0_03_autoskill.png',
     purpose: 'Skills, training, and learner-progress product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -126,6 +129,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: "Big V's Best Routes Fleet OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™",
     url: 'https://bigvsfleetos.vercel.app/',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/0b7658732_04_bigvs.png',
     purpose: 'Safety-first fleet / route / compliance product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -144,6 +148,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'ResponseLink OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://responselinkosv1.vercel.app/',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/8871d1321_05_responselink.png',
     purpose: 'Community welfare, outreach, responder coordination, and service-user support pathway.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -162,6 +167,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'CareerLink OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xaiclos.vercel.app/',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/52edbe973_06_careerlink.png',
     purpose: 'Career support, coaching, progress, and opportunity-readiness product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -180,6 +186,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'Recharge Burnout Recovery™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://burnout-mh.vercel.app/ap3x/companion/index.html',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/1a85893ec_07_burnout.png',
     purpose: 'Burnout recovery, guided wellbeing, and supportive PWA product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -198,6 +205,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'Four Paws Training and Enrichment Academy™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://fourpawsdemo.vercel.app/ap3x/demo/index.html#deploy',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/08bcc0cc3_08_fourpaws.png',
     purpose: 'Training academy, lesson, progress, and learner PWA product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -216,6 +224,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'Quantum Compliance OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xaiqc.netlify.app/',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/e549c1ea8_09_quantumcompliance.png',
     purpose: 'Compliance, audit, evidence, and readiness product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -234,6 +243,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'TrustShield OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xaitsos.netlify.app/#/welcome',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/61d897f0e_10_trustshield.png',
     purpose: 'Trust, reputation, partner-readiness, and confidence-signalling product direction.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -252,6 +262,7 @@ const PROJECTS_DATA = [
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'Kyzel Clarity™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xkyzelclarityai.netlify.app/',
+    screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/fa3064673_11_kyzelclarity.png',
     purpose: 'AI-powered communication bridge and explainability product with changeable knowledge base.',
     status: 'Live deployed demo',
     badges: ['Demo/live pathway', 'Backend-ready'],
@@ -355,6 +366,21 @@ function renderProjects() {
 
   grid.innerHTML = PROJECTS_DATA.map((p, i) => `
     <article class="card proj-card" role="listitem" data-index="${i}">
+      ${p.screenshot ? `
+      <div class="proj-screenshot-wrap">
+        <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="proj-screenshot-link" tabindex="-1" aria-hidden="true">
+          <img
+            src="${p.screenshot}"
+            alt="${p.title} live site preview"
+            class="proj-screenshot"
+            loading="lazy"
+            decoding="async"
+          />
+          <span class="proj-screenshot-overlay">
+            <span class="proj-screenshot-badge">&#x1F517; Open Live Demo</span>
+          </span>
+        </a>
+      </div>` : ''}
       <div class="proj-card-top">
         <div class="proj-num-badge">${p.num}</div>
         <div class="proj-status-badge">

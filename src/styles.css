@@ -4052,3 +4052,109 @@ nav [data-page]:hover {
   }
 }
 
+
+/* ══════════════════════════════════════════════════════════
+   PROJECT CARD — live site screenshot preview
+══════════════════════════════════════════════════════════ */
+
+.proj-screenshot-wrap {
+  position: relative;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  background: #0a0a0f;
+  /* Fake browser bar */
+  border-bottom: 2px solid rgba(245,200,75,.18);
+  flex-shrink: 0;
+}
+
+.proj-screenshot-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.proj-screenshot {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform .35s ease, filter .35s ease;
+  filter: brightness(.92);
+  hyphens: none !important;
+}
+
+.proj-screenshot-link:hover .proj-screenshot,
+.proj-screenshot-link:focus-visible .proj-screenshot {
+  transform: scale(1.04);
+  filter: brightness(1);
+}
+
+/* Hover overlay */
+.proj-screenshot-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,.0) 40%,
+    rgba(0,0,0,.72) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: .75rem;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+
+.proj-screenshot-link:hover .proj-screenshot-overlay,
+.proj-screenshot-link:focus-visible .proj-screenshot-overlay {
+  opacity: 1;
+}
+
+.proj-screenshot-badge {
+  background: rgba(245,200,75,.92);
+  color: #0a0a0f;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: .3rem .8rem;
+  border-radius: 6px;
+  hyphens: none !important;
+  white-space: nowrap;
+}
+
+/* Adjust card so screenshot sits flush at top */
+.proj-card {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.proj-card .proj-card-top,
+.proj-card .proj-title,
+.proj-card .proj-subtitle,
+.proj-card .proj-purpose,
+.proj-card .proj-badges,
+.proj-card .proj-actions {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.proj-card .proj-card-top {
+  padding-top: 1rem;
+}
+
+.proj-card .proj-actions {
+  padding-bottom: 1.25rem;
+}
+
+/* Mobile: slightly shorter screenshot */
+@media (max-width: 640px) {
+  .proj-screenshot {
+    height: 150px;
+  }
+}
+
