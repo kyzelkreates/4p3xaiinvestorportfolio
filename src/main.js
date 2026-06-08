@@ -1105,7 +1105,8 @@ function initTextbeeConfig() {
 
 const SPA_PAGES = [
   'top','about','investor','platform-factory','five-bases',
-  'build-validation','public-benefit','valuation','business','timeline','products',
+  // 'valuation', // VALUATION_HIDDEN — re-add to re-enable
+  'build-validation','public-benefit','business','timeline','products',
   'clarity','uses','architecture','agents','contact','admin','pwa'
 ];
 
