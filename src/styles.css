@@ -2019,49 +2019,49 @@ html {
 /* Hidden pages */
 .page-hidden {
   display: none !important;
+  visibility: hidden;
 }
 
-/* Visible pages — fade + subtle slide up in */
+/* ── Page enter animations ──────────────────────────────── */
 .page-visible {
   display: block;
+}
+
+/* Forward navigation: slide in from right */
+.page-visible[data-dir="forward"] {
+  animation: pageEnterForward .35s cubic-bezier(.22,1,.36,1) both;
+}
+
+/* Back navigation: slide in from left */
+.page-visible[data-dir="back"] {
+  animation: pageEnterBack .35s cubic-bezier(.22,1,.36,1) both;
+}
+
+/* Initial load: fade up only */
+.page-visible:not([data-dir]) {
   animation: pageEnter .32s cubic-bezier(.22,1,.36,1) both;
 }
 
 @keyframes pageEnter {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Active nav link highlight */
-[data-page].nav-active {
-  color: var(--gold) !important;
-  font-weight: 800;
+@keyframes pageEnterForward {
+  from { opacity: 0; transform: translateX(32px) translateY(8px); }
+  to   { opacity: 1; transform: translateX(0)    translateY(0); }
 }
 
-/* Active link indicator dot */
-nav [data-page].nav-active::before {
-  content: '';
-  display: inline-block;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--gold);
-  margin-right: .45rem;
-  vertical-align: middle;
-  position: relative;
-  top: -1px;
+@keyframes pageEnterBack {
+  from { opacity: 0; transform: translateX(-32px) translateY(8px); }
+  to   { opacity: 1; transform: translateX(0)     translateY(0); }
 }
 
-/* ── PWA & Install section — prevent it hiding pwa banner ── */
+/* PWA section special: full-screen-ish, no extra scroll */
 #pwa.page-hidden {
   display: none !important;
 }
+
 
 
 /* ══════════════════════════════════════════════════════════
@@ -3599,4 +3599,56 @@ a[href^="http"] {
 img { max-width: 100%; height: auto; }
 .proj-card img,
 .diag-img   { object-fit: cover; }
+
+
+/* ── Nav progress indicator bar ────────────────────────── */
+.topbar {
+  position: relative;
+}
+
+.topbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--gold), var(--purple));
+  transition: width .3s ease;
+  pointer-events: none;
+}
+
+/* Nav active pill */
+nav [data-page].nav-active {
+  color: var(--gold) !important;
+  background: rgba(245,200,75,.1);
+  border-radius: 6px;
+  padding: .2rem .55rem;
+}
+
+/* Smooth nav link transitions */
+nav [data-page] {
+  transition: color .15s, background .15s, padding .15s;
+  border-radius: 6px;
+  padding: .2rem .4rem;
+  white-space: nowrap;
+}
+
+nav [data-page]:hover {
+  color: var(--gold);
+  background: rgba(245,200,75,.07);
+}
+
+/* ── Page breadcrumb bar (shows current section name) ─── */
+.page-breadcrumb {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold) var(--progress, 0%), transparent var(--progress, 0%));
+  pointer-events: none;
+}
 

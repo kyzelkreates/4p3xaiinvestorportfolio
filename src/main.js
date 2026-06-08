@@ -1175,42 +1175,59 @@ function getPageFromHash() {
 }
 
 function showPage(pageId, pushState = true) {
-  const target = SPA_PAGES.includes(pageId) ? pageId : 'top';
+  const target  = SPA_PAGES.includes(pageId) ? pageId : 'top';
+  const prevId  = document.querySelector('section.page-visible')?.id || null;
+  const prevIdx = SPA_PAGES.indexOf(prevId);
+  const nextIdx = SPA_PAGES.indexOf(target);
+  const dir     = (prevIdx < 0 || nextIdx > prevIdx) ? 'forward' : 'back';
 
   // Update nav active state
   document.querySelectorAll('[data-page]').forEach(el => {
     el.classList.toggle('nav-active', el.dataset.page === target);
   });
 
-  // Hide all sections, show only target
-  SPA_PAGES.forEach(id => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (id === target) {
-      el.classList.remove('page-hidden');
-      el.classList.add('page-visible');
-    } else {
-      el.classList.add('page-hidden');
-      el.classList.remove('page-visible');
-    }
-  });
+  // Update progress bar
+  const progressBar = document.getElementById('pageProgress');
+  if (progressBar) {
+    const idx = SPA_PAGES.indexOf(target);
+    const pct = Math.round(((idx + 1) / SPA_PAGES.length) * 100);
+    progressBar.style.setProperty('--progress', pct + '%');
+    progressBar.style.display = 'block';
+  }
 
-  // Update hash without scroll jump (replace so back works naturally)
+  // Find the sections
+  const incoming = document.getElementById(target);
+  const outgoing = prevId ? document.getElementById(prevId) : null;
+
+  if (!incoming) return;
+
+  // Outgoing: quick fade out
+  if (outgoing && outgoing !== incoming) {
+    outgoing.classList.remove('page-visible');
+    outgoing.classList.add('page-hidden');
+    outgoing.removeAttribute('data-dir');
+  }
+
+  // Incoming: set direction, then trigger enter animation
+  incoming.setAttribute('data-dir', dir);
+  incoming.classList.remove('page-hidden');
+  // Force reflow so animation re-fires if same page
+  void incoming.offsetWidth;
+  incoming.classList.add('page-visible');
+
+  // Update browser history
   if (pushState) {
     history.pushState({ page: target }, '', '#' + target);
   }
 
-  // Scroll to top of page on navigation
+  // Scroll to top
   window.scrollTo({ top: 0, behavior: 'instant' });
 
   // Close mobile nav if open
-  const nav = document.getElementById('mainNav');
-  const hamburger = document.getElementById('hamburger');
-  if (nav) nav.classList.remove('open');
-  if (hamburger) {
-    hamburger.setAttribute('aria-expanded', 'false');
-    hamburger.textContent = 'Menu';
-  }
+  const nav = document.querySelector('[data-nav]');
+  const menuBtn = document.querySelector('[data-menu-toggle]');
+  if (nav)    nav.classList.remove('open');
+  if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
 }
 
 function initRouter() {
