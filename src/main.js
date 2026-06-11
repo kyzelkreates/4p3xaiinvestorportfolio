@@ -201,21 +201,26 @@ const PROJECTS_DATA = [
   },
   {
     num: 8,
-    title: 'Four Paws Training and Enrichment Academy™',
+    title: 'Four Paws Training and Enrichment Academy™ Booking OS',
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
-    brand: 'Four Paws Training and Enrichment Academy™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'Four Paws Training and Enrichment Academy™ Booking OS Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://fourpawsdemo.vercel.app/ap3x/demo/index.html#deploy',
     screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/08bcc0cc3_08_fourpaws.png',
-    purpose: 'Training academy, lesson, progress, and learner PWA product direction.',
+    purpose: 'Backend-connected animal-care Booking OS with one Overall Admin Dashboard plus a Trainer Dashboard PWA, Walker PWA, and Owner PWA — all communicating through the backend.',
     status: 'Live deployed demo',
-    badges: ['Demo/live pathway', 'Backend-ready'],
-    desc: 'Pet training academy, lesson management, learner progress, and structured training platform variant.',
+    badges: ['Overall Admin Dashboard', 'Trainer Dashboard PWA', 'Walker PWA', 'Owner PWA', 'Backend Connected', 'Federated Booking OS', 'Role-Based PWAs', 'GPS Tracking', 'Installable PWA', 'Animal-Care Operations', 'Owner Visibility', 'Trainer Coordination', 'Admin Oversight', '4P3X Intelligent AI™'],
+    desc: 'A backend-connected animal-care Booking OS with one Overall Admin Dashboard plus a Trainer Dashboard PWA, Walker PWA, and Owner PWA. All role-based PWAs communicate through the backend and feed activity back into the admin/dashboard system — creating a connected federated booking and animal-care operations platform with installable PWAs, GPS walk/visit tracking, owner visibility, trainer coordination, and admin oversight.',
     caseStudy: {
-      who: 'Pet training businesses, animal behaviour specialists, training academies, and any skills-based training provider needing a structured course and progress platform.',
-      what: 'A training academy PWA with lesson modules, learner progress tracking, course management, and an AI-guided training assistant — adapted for pet training but usable across many training contexts.',
-      where: 'Live at fourpawsdemo.vercel.app. Installable as a mobile PWA for learners.',
-      when: 'Built to demonstrate how the same 4P3X training architecture works in a niche, personality-driven sector.',
-      how: 'The base was refactored with lesson content structure, learner progress logic, course management flows, and a training-specific AI guide. Demonstrates the versatility of the base across very different branding and sector contexts.'
+      who: 'Animal-care businesses, dog walking services, pet visit providers, trainer-led care networks, booking and operations managers, and any multi-role animal-care operation that needs connected admin, trainer, walker, and owner-facing tools working together in one system.',
+      what: 'A connected multi-role animal-care Booking OS with one Overall Admin Dashboard and three role-based PWAs: the Trainer Dashboard PWA, the Walker PWA, and the Owner PWA. All four interfaces communicate through the backend as one federated booking and animal-care operations system.',
+      where: 'Live demo at fourpawsdemo.vercel.app. Each role-based PWA is installable on mobile. The admin dashboard is browser-accessible for operational oversight.',
+      when: 'Built to demonstrate that the 4P3X Verse™ architecture can go beyond single-dashboard products into multi-role, backend-connected, federated operating systems.',
+      how: 'The 4P3X base was extended into four connected interfaces: the Overall Admin Dashboard as the central control layer; the Trainer Dashboard PWA for trainer-side operations and coordination; the Walker PWA for field activity and GPS-supported walk/visit updates; and the Owner PWA for client-side visibility of booking status, animal-care activity, and walker/visit updates. All role-based activity communicates through the backend and feeds into the wider dashboard system.',
+      problem: 'Animal-care businesses often need separate tools for bookings, admin oversight, trainers, walkers, owners, animal updates, GPS walk evidence, visits, and communication. When these tools are disconnected, it becomes harder to manage bookings, track activity, keep owners informed, and maintain operational visibility.',
+      solution: 'Four Paws Training and Enrichment Academy™ Booking OS connects one Overall Admin Dashboard with a Trainer Dashboard PWA, Walker PWA, and Owner PWA through the backend. Each role has its own installable interface, but all activity connects back into the same operational system.',
+      architecture: 'Federated dashboard/PWA structure. The Overall Admin Dashboard acts as the central control layer. The Trainer Dashboard PWA manages trainer-side work and coordination. The Walker PWA handles field activity and GPS-supported updates. The Owner PWA gives clients visibility of their animal-care activity. All role-based activity communicates through the backend and feeds into the wider dashboard system.',
+      portfolioValue: 'Proves the 4P3X Verse™ architecture can move beyond static demo screens into a backend-connected, multi-role, installable PWA operating system. Demonstrates admin control, trainer operations, walker field workflow, owner visibility, GPS activity tracking, backend communication, and real animal-care booking logic inside one connected product.',
+      futureUse: 'The system can be expanded into a live animal-care SaaS, booking platform, dog walking operation system, pet visit management platform, trainer-led care network, franchise-ready operating system, or white-label booking product for animal-care businesses.'
     }
   },
   {
@@ -258,21 +263,147 @@ const PROJECTS_DATA = [
   },
   {
     num: 11,
-    title: 'Kyzel Clarity™',
+    title: 'Kyzel Clarity™ — Reusable Clarity OS',
     subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     brand: 'Kyzel Clarity™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
     url: 'https://4p3xkyzelclarityai.netlify.app/',
     screenshot: 'https://base44.app/api/apps/6a25924245f59bd1154c6405/files/mp/public/6a25924245f59bd1154c6405/fa3064673_11_kyzelclarity.png',
-    purpose: 'AI-powered communication bridge and explainability product with changeable knowledge base.',
+    purpose: 'An installable AI clarity PWA that currently explains the 4P3X Verse™ and Kyzel Kreates™ projects — but can be repurposed for any subject, brand, person, organisation, training system, product library, or knowledge base by swapping the dataset.',
     status: 'Live deployed demo',
-    badges: ['Demo/live pathway', 'Backend-ready'],
-    desc: 'AI-powered communication explainer and clarity tool — bridging complexity with plain-language AI guidance and a changeable knowledge base.',
+    badges: ['Offline PWA', 'AI Explainer', 'Dataset-Swappable', 'Knowledge Base Ready', 'Portfolio Assistant', 'Training Assistant', 'Business Clarity Engine', 'Reusable Clarity OS', "Anyone's Clarity Assistant"],
+    desc: 'An installable AI clarity PWA that currently explains the 4P3X Verse™ and Kyzel Kreates™ projects, but can be repurposed for any subject, brand, person, organisation, training system, product library, support process, or knowledge base by swapping the dataset. It proves a reusable "Clarity OS" model — not just Kyzel Clarity™, but a framework for anyone\'s clarity assistant.',
     caseStudy: {
-      who: 'Founders, neurodivergent communicators, product teams, and anyone who needs to explain complex systems in clearer language to investors, partners, or users.',
-      what: 'An installable AI-powered explainer system with a changeable knowledge base — designed to translate complex product architecture, systems thinking, or technical concepts into accessible language.',
-      where: 'Live at 4p3xkyzelclarityai.netlify.app. Installable as a PWA across all devices.',
-      when: 'Built directly from lived experience — Ciaran (Kyzel Kreates™) is neurodivergent and built this to bridge his own communication needs. It became a deployable product in its own right.',
-      how: 'The 4P3X base was adapted with a knowledge base layer, explainability-first AI guidance, plain-language summarisation flows, and an accessible communication interface. The knowledge base is changeable — making it adaptable to any product, person, or organisation that needs clearer communication.'
+      who: 'Founders, product teams, organisations, training providers, businesses, and anyone who needs to explain complex projects, systems, portfolios, products, ideas, or knowledge bases to non-technical audiences — investors, employers, clients, partners, or learners.',
+      what: 'An installable offline-capable PWA clarity assistant that currently explains the 4P3X Verse™ portfolio, Kyzel Kreates™ projects, architecture, product purpose, build logic, and ecosystem strategy. The same clarity engine can become a subject-specific AI explainer for almost any person, brand, organisation, course, product library, technical system, support process, training manual, business knowledge base, portfolio, or documentation system simply by swapping the dataset and prompt layer.',
+      where: 'Live at 4p3xkyzelclarityai.netlify.app. Installable as a PWA across all devices. Offline-capable.',
+      when: 'Built directly from lived experience. Ciaran (Kyzel Kreates™) is neurodivergent and built this to bridge his own communication needs. It became a deployable and reusable product in its own right.',
+      how: 'The 4P3X base was adapted with a knowledge base layer, explainability-first AI guidance, plain-language summarisation flows, and an accessible communication interface. The knowledge base and prompt layer are swappable — making it adaptable to any product, person, or organisation that needs a clearer AI communication and explanation layer for their own subject, data, or content.',
+      problem: 'Complex projects, technical portfolios, business systems, training material, and product ecosystems can be difficult for non-technical people to understand quickly.',
+      solution: 'Kyzel Clarity™ provides an AI-powered explanation layer that answers questions from a prepared dataset and explains the system in plain language. Because the dataset is swappable, the same clarity interface can serve any subject, brand, organisation, or content owner.',
+      architecture: 'A reusable clarity interface connected to a structured knowledge dataset and prompt layer. The interface remains consistent while the dataset changes depending on the person, product, brand, course, organisation, or subject it is serving.',
+      portfolioValue: 'Proves that 4P3X Intelligent AI™ can be embedded as a reusable product-native AI explanation layer — not just a generic chatbot. Proves that one clarity interface can become "anyone\'s clarity assistant" when connected to the right dataset.',
+      futureUse: 'The model can become a client onboarding assistant, public information assistant, portfolio explainer, internal training assistant, help centre assistant, business documentation assistant, course tutor, product guide, or knowledge-base support tool for any organisation, brand, or subject.'
+    }
+  },
+
+  {
+    num: 12,
+    title: '4P3X AI Safety / Support Flow OS™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: '4P3X AI Safety / Support Flow OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    url: null,
+    screenshot: null,
+    purpose: 'Advisory support-flow platform designed to structure safer AI-assisted guidance, escalation pathways, user support journeys, risk-aware content flows, and human-reviewed decision boundaries.',
+    status: 'Ecosystem concept — planned',
+    badges: ['AI Support Flow', 'Safety-Aware Workflow', 'Human Override', 'Advisory AI', 'PWA-Ready', 'Demo/Live Ready'],
+    desc: '4P3X AI Safety / Support Flow OS™ is an advisory support-flow platform designed to structure safer AI-assisted guidance, escalation pathways, user support journeys, risk-aware content flows, and human-reviewed decision boundaries. It demonstrates how the 4P3X modular architecture can be adapted into a safety-first support system with clear escalation logic, evidence capture, non-clinical/non-legal disclaimers, and human override. It is designed to support safer workflows, not replace professional judgement.',
+    caseStudy: {
+      who: 'Organisations that need structured, safety-aware AI guidance flows for support services, helplines, advisory systems, or care-adjacent platforms where human oversight and escalation pathways are essential.',
+      what: 'An advisory support-flow platform with structured AI guidance, escalation logic, risk-aware content flows, evidence capture, non-clinical disclaimers, and human override capability.',
+      where: 'Planned deployment. Product card added for ecosystem completeness. Screenshot pending live deployment.',
+      when: 'Planned as part of the wider 4P3X Verse™ 16-product ecosystem expansion.',
+      how: 'The 4P3X base will be adapted with safety-aware support flow logic, escalation pathway rules, bounded AI guidance, human override controls, and evidence-capture mechanisms. All guidance will remain advisory — no medical, legal, or safety guarantees.',
+      problem: 'AI-assisted support tools can create risk if they lack proper escalation logic, human oversight, and clear advisory boundaries.',
+      solution: 'A structured safety-first support-flow system that keeps AI guidance bounded, routes complex situations to human review, and captures evidence at every step.',
+      architecture: 'Modular safety-first flow engine with bounded AI guidance layer, escalation rules, human override controls, and evidence capture built on the 4P3X base architecture.',
+      portfolioValue: 'Demonstrates that the 4P3X architecture can be adapted into safety-critical advisory contexts with proper human oversight and escalation design.',
+      futureUse: 'Suitable for helplines, advisory services, NHS-adjacent platforms, social care technology, insurance advisory flows, or any service requiring structured AI guidance with human fallback.'
+    }
+  },
+  {
+    num: 13,
+    title: '4P3X AI AgentForge OS™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: '4P3X AI AgentForge OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    url: null,
+    screenshot: null,
+    purpose: 'Modular AI-agent design and control platform for creating bounded, role-specific AI agents with defined purpose, allowed actions, forbidden actions, inputs, outputs, validation rules, stop conditions, and escalation rules.',
+    status: 'Ecosystem concept — planned',
+    badges: ['AI Agent Builder', 'Bounded Agents', 'Validation Rules', 'Stop Conditions', 'Product-Native AI', 'Reusable Architecture'],
+    desc: '4P3X AI AgentForge OS™ is a modular AI-agent design and control platform for creating bounded, role-specific AI agents with defined purpose, allowed actions, forbidden actions, inputs, outputs, validation rules, stop conditions, escalation rules, and audit-friendly behaviour. It demonstrates how 4P3X Intelligent AI™ can be structured as controlled product-native agents rather than generic chatbots.',
+    caseStudy: {
+      who: 'Product teams, AI developers, organisations, and businesses that need controlled, role-specific AI agents built to defined behavioural rules rather than open-ended generic AI.',
+      what: 'A platform for designing, configuring, and deploying bounded AI agents with explicit purpose, allowed/forbidden action sets, validation rules, stop conditions, escalation logic, and audit-friendly behaviour records.',
+      where: 'Planned deployment. Product card added for ecosystem completeness. Screenshot pending live deployment.',
+      when: 'Planned as part of the wider 4P3X Verse™ 16-product ecosystem expansion.',
+      how: 'The 4P3X base will be adapted with agent-definition interfaces, behavioural rule builders, validation logic, stop-condition management, and audit trail capture for each deployed agent.',
+      problem: 'Generic AI tools lack the structured boundaries, role-specific behaviour rules, and audit trails needed for reliable product-native AI deployment.',
+      solution: 'A structured agent design and control platform that lets teams define exactly what each AI agent can do, cannot do, and when to stop or escalate.',
+      architecture: 'Modular agent-definition engine with role-based configuration, validation rules, stop conditions, escalation routing, and audit trail capture built on the 4P3X base architecture.',
+      portfolioValue: 'Demonstrates that 4P3X Intelligent AI™ is designed as controlled, bounded, product-native agents — not generic chatbots.',
+      futureUse: 'Suitable for enterprise AI governance, product-embedded AI assistants, regulated sector AI, customer service agents, compliance agents, or any context requiring bounded AI behaviour.'
+    }
+  },
+  {
+    num: 14,
+    title: '4P3X AI Skill OS™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: '4P3X AI Skill OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    url: null,
+    screenshot: null,
+    purpose: 'Modular learning, training, and skill-development platform showing how the base architecture can become an AI-assisted education or upskilling system.',
+    status: 'Ecosystem concept — planned',
+    badges: ['Learning OS', 'Skill Pathways', 'AI Tutor Layer', 'Progress Tracking', 'Certificate Ready', 'PWA-Ready'],
+    desc: '4P3X AI Skill OS™ is a modular learning, training, and skill-development platform that shows how the base architecture can become an AI-assisted education or upskilling system. It can support learner dashboards, progress tracking, guided lessons, skill pathways, AI explanations, certificates, and demo/live switching for training providers, employers, creators, and organisations.',
+    caseStudy: {
+      who: 'Training providers, employers, educational institutions, creators, and organisations that need an AI-assisted skill-development and learning platform.',
+      what: 'A modular learning platform with learner dashboards, progress tracking, guided lessons, skill pathways, AI tutor layer, certificate capability, and demo/live mode switching.',
+      where: 'Planned deployment. Product card added for ecosystem completeness. Screenshot pending live deployment.',
+      when: 'Planned as part of the wider 4P3X Verse™ 16-product ecosystem expansion.',
+      how: 'The 4P3X base will be adapted with learning module structure, skill pathway logic, progress tracking, AI-guided lesson flows, and certificate management capability.',
+      problem: 'Many organisations need structured digital learning platforms but face high development cost and complexity when building from scratch.',
+      solution: 'A modular AI-assisted learning OS refactored from the 4P3X base — ready for training providers, employers, or creators to deploy with their own content and branding.',
+      architecture: 'Modular learning engine with learner dashboard, skill pathway builder, progress tracking, AI tutor guidance, and certificate capability built on the 4P3X base.',
+      portfolioValue: 'Demonstrates the 4P3X architecture adapting into an education and upskilling context — extending the proven base into the learning and development sector.',
+      futureUse: 'Suitable for SaaS learning platforms, employer-led training systems, skills academies, course providers, and any organisation needing a structured digital learning environment.'
+    }
+  },
+  {
+    num: 15,
+    title: 'ProofForge OS™',
+    subtitle: 'Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    brand: 'ProofForge OS™ Powered by 4P3X Intelligent AI™ Created by Kyzel Kreates™',
+    url: null,
+    screenshot: null,
+    purpose: 'Proof, evidence, validation, and case-study generation platform for turning product builds into clear investor/employer/client-ready evidence packs.',
+    status: 'Ecosystem concept — planned',
+    badges: ['Proof System', 'Evidence Capture', 'Case Study Ready', 'Validation Logs', 'Portfolio Proof', 'Investor Evidence'],
+    desc: 'ProofForge OS™ is a proof, evidence, validation, and case-study generation platform concept within the 4P3X Verse™ ecosystem. It is designed to help structure project evidence, screenshots, build proof, validation logs, before/after records, case studies, portfolio claims, and investor/employer-ready proof packs. It supports the wider 4P3X goal of turning product builds into clear evidence of capability, progress, and commercial potential.',
+    caseStudy: {
+      who: 'Founders, product teams, freelancers, agencies, and organisations that need structured evidence, case studies, validation logs, and investor/employer-ready proof of their build capability and product progress.',
+      what: 'A proof, evidence, and case-study generation platform with screenshot capture, build validation logs, before/after records, portfolio claims structuring, and investor/employer-ready proof pack generation.',
+      where: 'Planned deployment. Product card added for ecosystem completeness. Screenshot pending live deployment.',
+      when: 'Planned as part of the wider 4P3X Verse™ 16-product ecosystem expansion.',
+      how: 'The 4P3X base will be adapted with evidence capture flows, validation log management, case study templates, proof pack generation, and structured claim formatting for investor/employer/client audiences.',
+      problem: 'Builders and teams often struggle to present their project evidence in a structured, investor or employer-ready format that clearly proves capability and progress.',
+      solution: 'A structured proof and evidence platform that turns builds, screenshots, validation logs, and case studies into clear proof packs for any audience.',
+      architecture: 'Modular evidence capture and proof pack generation engine built on the 4P3X base with case study templates, validation logging, and structured claim management.',
+      portfolioValue: 'Supports the wider 4P3X Verse™ goal of demonstrating proof of capability at every build stage — and shows the architecture extending into the evidence and validation sector.',
+      futureUse: 'Suitable for product studios, freelance developers, grant applicants, investor-facing teams, portfolio builders, and any organisation needing structured proof of progress and capability.'
+    }
+  },
+  {
+    num: 16,
+    title: '4P3X Project Rescue OS™',
+    subtitle: 'Powered by Intelligent AI Agents Created by Kyzel Kreates™',
+    brand: '4P3X Project Rescue OS™ Powered by Intelligent AI Agents Created by Kyzel Kreates™',
+    url: null,
+    screenshot: null,
+    purpose: 'Project repair, audit, recovery, and build-control concept for diagnosing broken apps, stale projects, failed deployments, missing links, and incomplete product logic.',
+    status: 'Ecosystem concept — planned',
+    badges: ['Project Rescue', 'Fix-First Workflow', 'Build Audit', 'Deployment Repair', 'Validation System', 'AI Agent Assisted'],
+    desc: '4P3X Project Rescue OS™ Powered by Intelligent AI Agents Created by Kyzel Kreates™ is a project repair, audit, recovery, and build-control concept designed to help diagnose broken apps, stale projects, failed deployments, missing links, duplicate files, dead buttons, backend issues, and incomplete product logic. It supports a fix-first, preserve-first, validate-first workflow for turning messy builds into structured, deployable systems.',
+    caseStudy: {
+      who: 'Developers, product teams, agencies, and organisations that have broken, incomplete, or stalled builds that need structured diagnosis, repair, and validation before they can be deployed or handed over.',
+      what: 'A project audit, repair, and recovery platform with broken-build diagnosis, deployment issue detection, dead link/button scanning, duplicate file management, incomplete logic identification, and fix-first validation workflow.',
+      where: 'Planned deployment. Product card added for ecosystem completeness. Screenshot pending live deployment.',
+      when: 'Planned as part of the wider 4P3X Verse™ 16-product ecosystem expansion. Inspired directly by the real-world fix-first, preserve-first, validate-first methodology used in building the 4P3X Verse™ ecosystem itself.',
+      how: 'The 4P3X base will be adapted with audit scanning logic, broken-build detection flows, fix-prioritisation workflows, validation gate management, and structured repair reporting.',
+      problem: 'Many projects stall or fail not because of bad ideas, but because of broken builds, missing links, incomplete logic, and lack of structured audit and repair methodology.',
+      solution: 'A structured project rescue platform that applies fix-first, preserve-first, validate-first methodology to diagnose and repair builds without unnecessary rebuilding.',
+      architecture: 'Modular build audit and repair engine with diagnosis flows, fix prioritisation, validation gates, and structured recovery reporting built on the 4P3X base.',
+      portfolioValue: 'Demonstrates the 4P3X methodology at its core — fix-first, preserve-first, validate-first — as a deployable product in its own right. The methodology that built the portfolio becomes the portfolio.',
+      futureUse: 'Suitable for software agencies, development teams, technical consultants, product rescuers, and any organisation needing structured project audit and recovery capability.'
     }
   }
 ];
@@ -380,6 +511,12 @@ function renderProjects() {
             <span class="proj-screenshot-badge">&#x1F517; Open Live Demo</span>
           </span>
         </a>
+      </div>` : p.num >= 12 ? `
+      <div class="proj-screenshot-wrap proj-screenshot-wrap--pending">
+        <div class="proj-screenshot-pending">
+          <span class="proj-screenshot-pending-icon">&#x1F4F8;</span>
+          <span class="proj-screenshot-pending-text">Screenshot pending — product card added for ecosystem completeness.</span>
+        </div>
       </div>` : ''}
       <div class="proj-card-top">
         <div class="proj-num-badge">${p.num}</div>
@@ -394,7 +531,9 @@ function renderProjects() {
         ${p.badges.map(b => `<span class="proj-badge">${b}</span>`).join('')}
       </div>
       <div class="proj-actions">
-        <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="btn primary proj-btn">Open Live Demo</a>
+        ${p.url
+          ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="btn primary proj-btn">Open Live Demo</a>`
+          : `<span class="btn primary proj-btn proj-btn--planned" aria-disabled="true">Deployment planned</span>`}
         <button class="btn ghost proj-btn btn-case-study" data-index="${i}" type="button">View details</button>
       </div>
     </article>
@@ -888,14 +1027,17 @@ function openCaseStudy(index) {
       <button class="cs-close" id="csCloseBtn" aria-label="Close case study">&#x2715;</button>
     </div>
     <div class="cs-body">
+      ${cs.problem ? `<div class="cs-row cs-row--highlight"><span class="cs-label">&#x1F6AB; Problem</span><p class="cs-text">${escapeHtml(cs.problem)}</p></div>` : ''}
+      ${cs.solution ? `<div class="cs-row cs-row--highlight"><span class="cs-label">&#x2705; Solution</span><p class="cs-text">${escapeHtml(cs.solution)}</p></div>` : ''}
       <div class="cs-row">
         <span class="cs-label">&#x1F464; Who</span>
         <p class="cs-text">${escapeHtml(cs.who)}</p>
       </div>
       <div class="cs-row">
-        <span class="cs-label">&#x1F4E6; What</span>
+        <span class="cs-label">&#x1F4E6; What was built</span>
         <p class="cs-text">${escapeHtml(cs.what)}</p>
       </div>
+      ${cs.architecture ? `<div class="cs-row"><span class="cs-label">&#x1F3D7; Architecture</span><p class="cs-text">${escapeHtml(cs.architecture)}</p></div>` : ''}
       <div class="cs-row">
         <span class="cs-label">&#x1F4CD; Where</span>
         <p class="cs-text">${escapeHtml(cs.where)}</p>
@@ -908,9 +1050,13 @@ function openCaseStudy(index) {
         <span class="cs-label">&#x2699;&#xFE0F; How</span>
         <p class="cs-text">${escapeHtml(cs.how)}</p>
       </div>
+      ${cs.portfolioValue ? `<div class="cs-row cs-row--value"><span class="cs-label">&#x1F4CA; Portfolio value</span><p class="cs-text">${escapeHtml(cs.portfolioValue)}</p></div>` : ''}
+      ${cs.futureUse ? `<div class="cs-row cs-row--future"><span class="cs-label">&#x1F680; Future commercial use</span><p class="cs-text">${escapeHtml(cs.futureUse)}</p></div>` : ''}
     </div>
     <div class="cs-footer">
-      <a href="${escapeHtml(p.url)}" target="_blank" rel="noopener" class="btn primary cs-cta">Open live deployment &rarr;</a>
+      ${p.url
+        ? `<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener" class="btn primary cs-cta">Open live deployment &rarr;</a>`
+        : `<span class="btn primary cs-cta cs-cta--planned" aria-disabled="true">Deployment planned</span>`}
       <button class="btn ghost cs-close-btn" id="csCloseBtn2">Close</button>
     </div>
   `;

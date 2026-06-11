@@ -4158,3 +4158,83 @@ nav [data-page]:hover {
   }
 }
 
+
+/* ══════════════════════════════════════════════════════════
+   PRODUCTS 12-16 — screenshot placeholder panel
+══════════════════════════════════════════════════════════ */
+
+.proj-screenshot-wrap--pending {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+  border-bottom: 2px solid rgba(160, 160, 180, .15);
+}
+
+.proj-screenshot-pending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  height: 180px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.proj-screenshot-pending-icon {
+  font-size: 2rem;
+  opacity: .45;
+}
+
+.proj-screenshot-pending-text {
+  font-size: .72rem;
+  color: var(--muted, #888);
+  line-height: 1.4;
+  max-width: 220px;
+  hyphens: none !important;
+  overflow-wrap: normal;
+}
+
+/* ── Planned deployment button ─────────────────────────── */
+
+.proj-btn--planned,
+.cs-cta--planned {
+  opacity: .55;
+  cursor: default;
+  pointer-events: none;
+  background: var(--silver, #aaa) !important;
+  color: #111 !important;
+  border-color: transparent !important;
+}
+
+/* ── Case study rich-field rows ────────────────────────── */
+
+.cs-row--highlight {
+  background: rgba(245, 200, 75, .06);
+  border-left: 3px solid var(--gold, #f5c84b);
+  border-radius: 0 6px 6px 0;
+  padding-left: .75rem !important;
+}
+
+.cs-row--value {
+  background: rgba(80, 220, 130, .06);
+  border-left: 3px solid var(--green, #50dc82);
+  border-radius: 0 6px 6px 0;
+  padding-left: .75rem !important;
+}
+
+.cs-row--future {
+  background: rgba(130, 80, 220, .06);
+  border-left: 3px solid var(--purple, #8250dc);
+  border-radius: 0 6px 6px 0;
+  padding-left: .75rem !important;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .proj-screenshot-pending {
+    height: 150px;
+  }
+  .proj-screenshot-pending-text {
+    font-size: .68rem;
+  }
+}
+
